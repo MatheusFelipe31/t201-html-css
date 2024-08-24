@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+#linkH1{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.linkAbsolut {
+    text-decoration: none; /* remover linha do texto */
+    background-color: black; /* cor de fundo */
+    color: greenyellow; /* cor da fonte (letra) */
+    display: block;
+    width: 100%; /* definir largura */
+    height: 50px; /* definir altura */
+    line-height: 50px; /* definir altura da linha */
+    text-align: center; /* alinhar texto no centro */
+    /* border-radius: 50px;  definindo bordas circulares */
+    /* border: 5px ridge greenyellow; definindo bordas coloridas */ 
+    /* margin: 10px 10px 10px 10px;  */ /* top-> right->bottom->left */
+    /* margin: 10px 10px; */ /* top e bottom-> right e left */
+    margin: 10px auto; 
+    
+
+}
+
+.linkRelative{
+text-decoration: none;
+background-color: dodgerblue;
+color: white;
+display: block;
+width: 100%;
+height: 50px;
+line-height: 50px;
+text-align: center;
+margin: 10px auto;
+
+}
+
+.linkAbsolut:hover {
+    color: black;
+    background-color: greenyellow;
+    border: 2px solid black
+}
+
+.linkRelative:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid dodgerblue;
+    outline: 1px solid red;
+}
+
+/* 
+Abrir comentario
+ SHIFT + ALT +A 
+ou
+CTRL + ;
+*/
+
